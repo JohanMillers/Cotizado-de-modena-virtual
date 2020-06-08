@@ -11,12 +11,6 @@ const Parrafo = styled.p`
    span {
        font-weight: bold;
    }
-
-
-
-
-
-
 `;
 
 const Precio = styled.p `
@@ -26,8 +20,6 @@ const Precio = styled.p `
 
    }
 `;
-
-
 
 const Cotizacion = ({ resultado }) => {
     if(Object.keys(resultado).length === 0) return null;
